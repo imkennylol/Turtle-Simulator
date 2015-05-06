@@ -11,8 +11,8 @@ import java.awt.*;
  *
  * Note that this class uses a singleton canvas (run as an apple
  *
- * @author Joel
- * @version Aug 2013
+ * @author Winnie Wu, Kenny Tsang
+ * @version May 2015
  */
 public class Turtle {
 
@@ -115,6 +115,14 @@ public class Turtle {
             return Color.YELLOW;
         }
         return Color.BLACK; //return black otherwise
+    }
+
+    public void setPenColor(Color blue) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void turn(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     /**
